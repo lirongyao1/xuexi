@@ -1,0 +1,13 @@
+.bd(@linne){
+    position: relative;
+    &:after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color:@linne ;
+        transform: scaleY(0.5); 
+    }
+};
